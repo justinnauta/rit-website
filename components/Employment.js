@@ -168,7 +168,7 @@ class Employment extends React.Component {
                             {/* Employment Map */}
                             <div className="column is-half has-text-centered">
                                 <h3 className="title is-size-4">Where Students Work</h3>
-                                <iframe id="employmentMap" src="http://ist.rit.edu/api/map.php" title="Where our students work!" />
+                                <iframe id="employmentMap" src="https://ist.rit.edu/api/map.php" title="Where our students work!" />
                             </div>
 
                             {/* Careers */}
