@@ -29,7 +29,7 @@ class Nav extends React.Component {
                 <div className="navbar-brand">
                     {/* Logo */}
                     <a className="navbar-item" href="#">
-                        <img src="../ITSLogo.png" />
+                        <img src="ITSLogo.png" />
                     </a>
 
                     {/* Burger menu */}
