@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <title>IST Website (Project 2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="jquery-ui.min.js"></script>
+
+    <!-- DataTables Plugin: https://datatables.net/ -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="default-styles.css">
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Load custom components and scripts -->
+    <script src="components/LoadOrFail.js" type="text/babel"></script>
+    <script src="components/Nav.js" type="text/babel"></script>
+    <script src="components/About.js" type="text/babel"></script>
+    <script src="components/Degrees.js" type="text/babel"></script>
+    <script src="components/Minors.js" type="text/babel"></script>
+    <script src="components/Employment.js" type="text/babel"></script>
+    <script src="components/People.js" type="text/babel"></script>
+    <script src="components/PageFooter.js" type="text/babel"></script>
+</body>
+
+</html>
