@@ -19,7 +19,7 @@ $(document).ready(function () {
 function XHR(nodePath) {
     return $.ajax({
         type: 'get',
-        url: 'http://solace.ist.rit.edu/~plgics/proxy.php',
+        url: 'https://solace.ist.rit.edu/~plgics/proxy.php',
         dataType: 'json',
         data: { path: nodePath },
         cache: false,
