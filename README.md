@@ -1,5 +1,5 @@
 # RIT Website Re-Imagining
-This website was built as a re-imagined version of RIT’s ITS website. All the data is dynamically loaded from RIT’s ITS API, which provides almost all the text on the page.
+This website was built as a re-imagined version of RIT’s IT website. All the data is dynamically loaded from RIT’s IT API, which provides almost all the text on the page.
 
 ### Note
 This application was previously made as an academic project. I moved the code to this new repository for posterity and reference purposes. Find more of my projects at [justinnauta.com](https://justinnauta.com)
@@ -14,7 +14,7 @@ React • JQuery • Bulma
 
 ## Difficulties
 
-Since all the content of the website came from RIT’s ITS API, I had to work with their formatting of the content. Each section of content was formatted a little differently, so I had to make sure I was properly retrieving the data for each individual section, rather than having a catch-all solution.
+Since all the content of the website came from RIT’s IT API, I had to work with their formatting of the content. Each section of content was formatted a little differently, so I had to make sure I was properly retrieving the data for each individual section, rather than having a catch-all solution.
 
 ## Solution
 
@@ -22,4 +22,4 @@ Using React was a big step in making the problem easier to handle. React allowed
 
 ## Notable Features
 
-Nearly all the website’s content is dynamically inserted after being retrieved from RIT’s ITS API.
+Nearly all the website’s content is dynamically inserted after being retrieved from RIT’s IT API.
